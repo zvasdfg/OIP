@@ -1,0 +1,41 @@
+expertise:
+  - python
+  - playwright
+  - selenium
+  - pytest
+  - typescript
+  - api testing
+  - rest
+  - soap
+  - automation architecture
+  - quality engineering
+  - test strategy
+  - ai validation
+
+preferred_domains:
+  - cloud
+  - infrastructure
+  - enterprise software
+  - developer tools
+  - ai systems
+  - health technology
+
+target_titles:
+  - senior sdet
+  - staff sdet
+  - principal quality engineer
+  - quality architect
+  - staff quality engineer
+  - senior automation engineer
+
+excluded_titles:
+  - manual tester
+  - qa analyst
+  - junior qa
+  - support engineer
+
+preferred_work_models:
+  - remote
+  - distributed
+  - hybrid
+

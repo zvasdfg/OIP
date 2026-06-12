@@ -1,0 +1,577 @@
+# Starter registry. The loader and storage layer are designed for hundreds or
+# thousands of organizations; append entries using the same schema.
+- name: Datadog
+  source: greenhouse
+  identifier: datadog
+  priority: high
+  category: observability
+  region: global
+  tags: [cloud, infrastructure, developer tools]
+- name: Cloudflare
+  source: greenhouse
+  identifier: cloudflare
+  priority: high
+  category: infrastructure
+  region: global
+  tags: [cloud, security, edge]
+- name: GitLab
+  source: greenhouse
+  identifier: gitlab
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [remote, devops, enterprise software]
+- name: Confluent
+  source: greenhouse
+  identifier: confluent
+  priority: high
+  category: infrastructure
+  region: global
+  tags: [streaming, data, cloud]
+- name: OpenAI
+  source: greenhouse
+  identifier: openai
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [ai systems, developer tools]
+- name: Anthropic
+  source: greenhouse
+  identifier: anthropic
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [ai systems, safety]
+- name: Stripe
+  source: greenhouse
+  identifier: stripe
+  priority: high
+  category: financial-technology
+  region: global
+  tags: [payments, enterprise software]
+- name: HashiCorp
+  source: greenhouse
+  identifier: hashicorp
+  priority: high
+  category: infrastructure
+  region: global
+  tags: [cloud, devops, developer tools]
+- name: MongoDB
+  source: greenhouse
+  identifier: mongodb
+  priority: high
+  category: database
+  region: global
+  tags: [cloud, data, enterprise software]
+- name: Elastic
+  source: greenhouse
+  identifier: elastic
+  priority: high
+  category: observability
+  region: global
+  tags: [search, security, cloud]
+- name: Grafana Labs
+  source: greenhouse
+  identifier: grafanalabs
+  priority: high
+  category: observability
+  region: global
+  tags: [cloud, monitoring, developer tools]
+- name: Snyk
+  source: greenhouse
+  identifier: snyk
+  priority: high
+  category: security
+  region: global
+  tags: [developer tools, security]
+- name: Wiz
+  source: greenhouse
+  identifier: wizinc
+  priority: high
+  category: security
+  region: global
+  tags: [cloud, security]
+- name: Figma
+  source: greenhouse
+  identifier: figma
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [collaboration, design systems]
+- name: Notion
+  source: greenhouse
+  identifier: notion
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [collaboration, productivity]
+- name: Docker
+  source: greenhouse
+  identifier: docker
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [containers, cloud]
+- name: CircleCI
+  source: greenhouse
+  identifier: circleci
+  priority: medium
+  category: developer-tools
+  region: global
+  tags: [ci/cd, automation]
+- name: Okta
+  source: greenhouse
+  identifier: okta
+  priority: medium
+  category: security
+  region: global
+  tags: [identity, enterprise software]
+- name: Snowflake
+  source: greenhouse
+  identifier: snowflake
+  priority: high
+  category: data-platform
+  region: global
+  tags: [cloud, data]
+- name: Samsara
+  source: greenhouse
+  identifier: samsara
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [iot, cloud]
+- name: Zapier
+  source: greenhouse
+  identifier: zapier
+  priority: medium
+  category: automation
+  region: global
+  tags: [remote, automation]
+- name: Reddit
+  source: greenhouse
+  identifier: reddit
+  priority: medium
+  category: consumer-platform
+  region: global
+  tags: [platform, data]
+- name: Dropbox
+  source: greenhouse
+  identifier: dropbox
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [collaboration, cloud]
+- name: Box
+  source: greenhouse
+  identifier: boxinc
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [content, cloud]
+- name: Asana
+  source: greenhouse
+  identifier: asana
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [collaboration, productivity]
+- name: Miro
+  source: greenhouse
+  identifier: miro
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [collaboration, design]
+- name: Grammarly
+  source: greenhouse
+  identifier: grammarly
+  priority: medium
+  category: ai-systems
+  region: global
+  tags: [ai systems, productivity]
+- name: HubSpot
+  source: greenhouse
+  identifier: hubspotjobs
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [crm, marketing]
+- name: ServiceNow
+  source: greenhouse
+  identifier: servicenow
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [platform, workflow]
+- name: Coursera
+  source: greenhouse
+  identifier: coursera
+  priority: medium
+  category: education-technology
+  region: global
+  tags: [platform, ai systems]
+- name: Oscar Health
+  source: greenhouse
+  identifier: oscar
+  priority: medium
+  category: health-technology
+  region: united-states
+  tags: [health technology, insurance]
+- name: Maven Clinic
+  source: greenhouse
+  identifier: mavenclinic
+  priority: medium
+  category: health-technology
+  region: united-states
+  tags: [health technology, platform]
+- name: Benchling
+  source: greenhouse
+  identifier: benchling
+  priority: medium
+  category: health-technology
+  region: global
+  tags: [life sciences, cloud]
+- name: Veeva Systems
+  source: greenhouse
+  identifier: veeva
+  priority: medium
+  category: health-technology
+  region: global
+  tags: [life sciences, enterprise software]
+- name: Plaid
+  source: lever
+  identifier: plaid
+  priority: high
+  category: financial-technology
+  region: global
+  tags: [api, infrastructure, fintech]
+- name: Vercel
+  source: lever
+  identifier: vercel
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [cloud, frontend, developer tools]
+- name: Postman
+  source: lever
+  identifier: postman
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [api testing, developer tools]
+- name: Linear
+  source: lever
+  identifier: linear
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [productivity, developer tools]
+- name: Airtable
+  source: lever
+  identifier: airtable
+  priority: medium
+  category: enterprise-software
+  region: global
+  tags: [automation, collaboration]
+- name: Webflow
+  source: lever
+  identifier: webflow
+  priority: medium
+  category: developer-tools
+  region: global
+  tags: [web, platform]
+- name: Sourcegraph
+  source: lever
+  identifier: sourcegraph
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [code intelligence, ai systems]
+- name: Cockroach Labs
+  source: lever
+  identifier: cockroachlabs
+  priority: high
+  category: database
+  region: global
+  tags: [cloud, data, infrastructure]
+- name: PlanetScale
+  source: lever
+  identifier: planetscale
+  priority: high
+  category: database
+  region: global
+  tags: [cloud, database, developer tools]
+- name: Temporal
+  source: lever
+  identifier: temporal
+  priority: high
+  category: infrastructure
+  region: global
+  tags: [workflow, distributed systems]
+- name: Tailscale
+  source: lever
+  identifier: tailscale
+  priority: high
+  category: infrastructure
+  region: global
+  tags: [networking, security]
+- name: 1Password
+  source: lever
+  identifier: 1password
+  priority: medium
+  category: security
+  region: global
+  tags: [security, enterprise software]
+- name: Chime
+  source: lever
+  identifier: chime
+  priority: medium
+  category: financial-technology
+  region: united-states
+  tags: [fintech, mobile]
+- name: Brex
+  source: lever
+  identifier: brex
+  priority: medium
+  category: financial-technology
+  region: global
+  tags: [fintech, enterprise software]
+- name: Rippling
+  source: lever
+  identifier: rippling
+  priority: high
+  category: enterprise-software
+  region: global
+  tags: [hr, platform, automation]
+- name: Ramp
+  source: ashby
+  identifier: ramp
+  priority: high
+  category: financial-technology
+  region: united-states
+  tags: [fintech, automation, enterprise software]
+- name: Cursor
+  source: ashby
+  identifier: cursor
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [developer tools, ai systems]
+- name: Modal
+  source: ashby
+  identifier: modal
+  priority: high
+  category: infrastructure
+  region: global
+  tags: [cloud, ai systems, compute]
+- name: LangChain
+  source: ashby
+  identifier: langchain
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [developer tools, ai systems]
+- name: Perplexity
+  source: ashby
+  identifier: perplexity
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [ai systems, search]
+- name: Harvey
+  source: ashby
+  identifier: harvey
+  priority: medium
+  category: ai-systems
+  region: global
+  tags: [ai systems, legal technology]
+- name: Glean
+  source: ashby
+  identifier: gleanwork
+  priority: high
+  category: enterprise-software
+  region: global
+  tags: [search, ai systems, productivity]
+- name: Runway
+  source: ashby
+  identifier: runway
+  priority: medium
+  category: ai-systems
+  region: global
+  tags: [ai systems, media]
+- name: Replit
+  source: ashby
+  identifier: replit
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [developer tools, ai systems]
+- name: Hex
+  source: ashby
+  identifier: hex
+  priority: medium
+  category: data-platform
+  region: global
+  tags: [data, cloud, collaboration]
+- name: dbt Labs
+  source: greenhouse
+  identifier: dbtlabs
+  priority: high
+  category: data-platform
+  region: global
+  tags: [data, developer tools]
+- name: ClickHouse
+  source: greenhouse
+  identifier: clickhouse
+  priority: high
+  category: database
+  region: global
+  tags: [data, cloud, infrastructure]
+- name: Supabase
+  source: greenhouse
+  identifier: supabase
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [database, cloud, developer tools]
+- name: Neon
+  source: greenhouse
+  identifier: neon
+  priority: high
+  category: database
+  region: global
+  tags: [cloud, database, developer tools]
+- name: Timescale
+  source: greenhouse
+  identifier: timescale
+  priority: medium
+  category: database
+  region: global
+  tags: [data, cloud]
+- name: Pulumi
+  source: greenhouse
+  identifier: pulumi
+  priority: high
+  category: infrastructure
+  region: global
+  tags: [cloud, devops, developer tools]
+- name: Honeycomb
+  source: greenhouse
+  identifier: honeycombio
+  priority: high
+  category: observability
+  region: global
+  tags: [observability, cloud]
+- name: Chronosphere
+  source: greenhouse
+  identifier: chronosphere
+  priority: medium
+  category: observability
+  region: global
+  tags: [cloud, monitoring]
+- name: LaunchDarkly
+  source: greenhouse
+  identifier: launchdarkly
+  priority: medium
+  category: developer-tools
+  region: global
+  tags: [feature flags, developer tools]
+- name: PagerDuty
+  source: greenhouse
+  identifier: pagerduty
+  priority: medium
+  category: observability
+  region: global
+  tags: [incident management, enterprise software]
+- name: Fastly
+  source: greenhouse
+  identifier: fastly
+  priority: medium
+  category: infrastructure
+  region: global
+  tags: [edge, security, cloud]
+- name: Netlify
+  source: greenhouse
+  identifier: netlify
+  priority: medium
+  category: developer-tools
+  region: global
+  tags: [cloud, web, developer tools]
+- name: Sentry
+  source: greenhouse
+  identifier: sentry
+  priority: high
+  category: developer-tools
+  region: global
+  tags: [observability, developer tools]
+- name: New Relic
+  source: greenhouse
+  identifier: newrelic
+  priority: medium
+  category: observability
+  region: global
+  tags: [cloud, monitoring]
+- name: Splunk
+  source: greenhouse
+  identifier: splunk
+  priority: medium
+  category: observability
+  region: global
+  tags: [security, data, enterprise software]
+- name: Zscaler
+  source: greenhouse
+  identifier: zscaler
+  priority: medium
+  category: security
+  region: global
+  tags: [security, cloud]
+- name: CrowdStrike
+  source: greenhouse
+  identifier: crowdstrike
+  priority: medium
+  category: security
+  region: global
+  tags: [security, cloud]
+- name: Lacework
+  source: greenhouse
+  identifier: lacework
+  priority: medium
+  category: security
+  region: global
+  tags: [security, cloud]
+- name: Cohere
+  source: greenhouse
+  identifier: cohere
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [ai systems, enterprise software]
+- name: Scale AI
+  source: greenhouse
+  identifier: scaleai
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [ai systems, data]
+- name: Hugging Face
+  source: greenhouse
+  identifier: huggingface
+  priority: high
+  category: ai-systems
+  region: global
+  tags: [ai systems, developer tools]
+- name: Insitro
+  source: greenhouse
+  identifier: insitro
+  priority: medium
+  category: health-technology
+  region: united-states
+  tags: [health technology, ai systems]
+- name: Tempus
+  source: greenhouse
+  identifier: tempus
+  priority: medium
+  category: health-technology
+  region: united-states
+  tags: [health technology, data]
+
